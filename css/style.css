@@ -62,11 +62,11 @@ body {
 }
 
 .home-bg {
-    width: 1643px;
+    width: 1558px;
     height: 565px;
     position: absolute;
     top: 100px;
-    left: -75px;
+    left: -39px;
     z-index: -1;
 }
 
@@ -175,8 +175,95 @@ body {
     width: 123px;
     height: 123px;
     position: absolute;
-    top: 1448px;
-    left: -303.27px;
-    z-index: 3;
+    top: 615px;
+    left: 585px;
+    z-index: -1;
     rotate: -54.17deg;
+}
+
+/* course section */
+.courses {
+    width: 1440px;
+    height: 600px;
+    position: relative;
+}
+
+.pluton-icon {
+    width: 484px;
+    height: 458.01px;
+    position: absolute;
+    top: -10px;
+    left: -141px;
+    z-index: -1;
+}
+
+.card-wrapper {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 57px;
+}
+
+.card {
+    width: 351px;
+    height: 401px;
+    border-radius: 11px;
+    padding: 50px;
+    background: linear-gradient(98.13deg, rgba(30, 30, 30, 0.75) 14.04%, rgba(23, 23, 23, 0.73) 87.76%);
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44.77px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.card-main {
+    width: 243px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.86px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-pric {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44.77px;
+    color: #fff;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.course-title p {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 71.63px;
+    rotate: 90deg;
+    position: absolute;
+    top: 158px;
+    left: 1300px;
+}
+
+.l-one {
+    width: 174px;
+    height: 0px;
+    position: absolute;
+    top: -28px;
+    left: 1340px;
+    rotate: 90deg;
+}
+
+.l-two {
+    width: 169px;
+    height: 0px;
+    position: absolute;
+    top: 415px;
+    left: 1340px;
+    rotate: 90deg;
 }
