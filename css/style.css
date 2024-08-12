@@ -16,6 +16,11 @@ body {
     overflow: hidden;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* ---------- header --------- */
 .header {
     width: 100%;
@@ -50,16 +55,19 @@ body {
 /* ---------- main ---------- */
 
 .home {
+    width: 100%;
     margin-bottom: 51px;
+    height: 565px;
+    position: relative;
 }
 
 .home-bg {
-    width: 1600px;
+    width: 1643px;
     height: 565px;
     position: absolute;
-    z-index: -1;
     top: 100px;
     left: -75px;
+    z-index: -1;
 }
 
 .img-box img {
@@ -106,4 +114,69 @@ body {
     line-height: 71.63px;
     color: #999999;
 }
-/*  */
+
+/* about */
+.about {
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.about-title {
+    font-size: 64px;
+    font-weight: 700;
+    color: #999999;
+    text-align: center;
+}
+
+.saturn-icon {
+    width: 549px;
+    height: 503.2px;
+    position: absolute;
+    top: 76px;
+    left: 739px;
+}
+
+.plus-cion {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 597px;
+    left: 1320px;
+}
+
+.plus-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 183.3px;
+    left: 138px;
+    rotate: 50deg;
+}
+
+.about__text {
+    padding: 39px 44px;
+    position: absolute;
+    width: 703px;
+    top: 226.65px;
+    left: 265.35px;
+    border-radius: 11px;
+    background: linear-gradient(98.13deg, rgba(30, 30, 30, 0.75) 14.04%, rgba(23, 23, 23, 0.73) 87.76%);
+}
+
+.about__text p {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+    width: 616px;
+}
+
+.circle-simp {
+    width: 123px;
+    height: 123px;
+    position: absolute;
+    top: 1448px;
+    left: -303.27px;
+    z-index: 3;
+    rotate: -54.17deg;
+}
