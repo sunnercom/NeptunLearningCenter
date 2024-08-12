@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: sans-serif;
     background: linear-gradient(212.18deg, #1C1D1E 18.4%, #2B2C2D 81.6%);
@@ -364,7 +368,7 @@ body::-webkit-scrollbar {
     color: #999999;
 }
 
-.btn-group button:hover{
+.btn-group button:hover {
     color: #fff;
 }
 
@@ -393,6 +397,35 @@ body::-webkit-scrollbar {
     color: rgba(153, 153, 153, 0.93);
 }
 
-.ft-group a:hover{
+.ft-group a:hover {
     color: white;
+}
+
+/* footer */
+.footer {
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 253px;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    gap: 19px ;    
+}
+
+.footer-box p {
+    width: 101px;
+}
+
+.ft-main {
+    width: 825px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
 }
