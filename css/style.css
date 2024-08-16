@@ -33,6 +33,7 @@ body::-webkit-scrollbar {
 .header {
     width: 100%;
     height: 100px;
+    padding: 0 30px;
 }
 
 .navbar {
@@ -58,6 +59,14 @@ body::-webkit-scrollbar {
 
 .nav__item a:hover {
     border-bottom: 3px solid #fff;
+}
+
+.burger {
+    display: none;
+}
+
+.burger__active{
+    left: 0 !important;
 }
 
 /* ---------- main ---------- */
@@ -348,7 +357,7 @@ body::-webkit-scrollbar {
     padding: 8px 10px;
 }
 
-.bi {
+.btn-group .bi {
     font-size: 30px;
     color: #999999;
 }

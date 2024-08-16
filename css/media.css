@@ -1,0 +1,20 @@
+@media (max-width:1225px){
+    .nav__link{
+        position: absolute;
+        flex-direction: column;
+        top: 0px;
+        background: linear-gradient(212.18deg, #1C1D1E 18.4%, #2B2C2D 81.6%);
+        height: 100% !important;
+        width: 300px;
+        height: 100vh;
+        padding-left: 10px;
+        z-index: 100;
+        left: -300px;
+        transition: all 0.3s ease;
+    }
+    .burger{
+        display: block !important;
+        font-size: 40px;
+        color: #fff;
+    }
+}
