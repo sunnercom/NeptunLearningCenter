@@ -1,5 +1,23 @@
-@media (max-width:1225px){
-    .nav__link{
+@media (max-width:1427px) {
+    .home-bg {
+        width: 1500px !important;
+    }
+}
+
+@media (max-width:1409px) {
+    .home-bg {
+        width: 1433px !important;
+    }
+}
+
+@media (max-width:1320px) {
+    .home-bg {
+        width: 1341px !important;
+    }
+}
+
+@media (max-width:1225px) {
+    .nav__link {
         position: absolute;
         flex-direction: column;
         top: 0px;
@@ -11,10 +29,92 @@
         z-index: 100;
         left: -300px;
         transition: all 0.3s ease;
+        padding-top: 30px;
     }
-    .burger{
+
+    .burger {
         display: block !important;
         font-size: 40px;
         color: #fff;
+    }
+}
+
+@media (max-width:1296px){
+    
+}
+
+@media (max-width:1210px) {
+    .home-bg {
+        width: 1231px !important;
+    }
+
+    .home-text {
+        position: absolute;
+        right: 0;
+    }
+}
+
+@media (max-width:400px) {
+    .home-bg {
+        display: none;
+    }
+
+    .home-text .t-one {
+        position: absolute !important;
+        left: -316px !important;
+        top: 20px !important;
+        font-size: 40px;
+    }
+    .home-text .t-two {
+        position: absolute !important;
+        left: -240px !important;
+        top: 60px !important;
+        font-size: 40px;
+    }
+    .home-text .t-three {
+        position: absolute !important;
+        left: -150px !important;
+        top: 100px !important;
+        font-size: 40px;
+    }
+
+    .img-box img {
+        width: 277px !important;
+        top: 150px !important;
+        left: 62px !important;
+    }
+
+    .media-bg {
+        display: block !important;
+        width: 400px !important;
+        position: absolute !important;
+        top: 31 px !important;
+    }
+
+    .about__text {
+        width: 357.82px !important;
+        left: 21px !important;
+    }
+
+    .about__text p {
+        width: 307px !important;
+        font-size: 20px !important;
+    }
+
+    .card-wrapper {
+        flex-direction: column !important;
+    }
+
+    .card {
+        width: 100px !important;
+    }
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-img {
+        width: 350px;
+        height: 231px;
     }
 }

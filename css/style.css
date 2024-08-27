@@ -20,6 +20,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+textarea {
+    resize: none;
+}
+
 .wrapper {
     overflow: hidden;
 }
@@ -65,14 +69,27 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.burger__active{
+.burger__active {
     left: 0 !important;
+}
+
+.deactive {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    position: absolute;
+    z-index: 4;
+    display: none;
+}
+.active {
+    display: block;
 }
 
 /* ---------- main ---------- */
 .main {
     position: relative;
 }
+
 .home {
     width: 100%;
     margin-bottom: 51px;
@@ -89,13 +106,16 @@ body::-webkit-scrollbar {
     z-index: -1;
 }
 
+.media-bg {
+display: none;
+}
+
 .img-box img {
     width: 468px;
     height: 433.4px;
     position: absolute;
     top: 164px;
     left: 206px;
-    fill: linear-gradient(124.92deg, #7D7D7D 13.71%, #FCFEFF 91.24%);
 }
 
 .t-one {
@@ -428,7 +448,7 @@ body::-webkit-scrollbar {
 .footer-box {
     display: flex;
     align-items: center;
-    gap: 19px ;    
+    gap: 19px;
 }
 
 .footer-box p {
