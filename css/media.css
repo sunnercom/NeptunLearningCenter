@@ -40,7 +40,15 @@
 }
 
 @media (max-width:1296px){
-    
+    .t-one{
+        left: 782px !important;
+    }
+    .t-two{
+        left: 906px !important;
+    }
+    .t-three{
+         left: 1028px !important;
+    }
 }
 
 @media (max-width:1210px) {
@@ -51,6 +59,12 @@
     .home-text {
         position: absolute;
         right: 0;
+    }
+    .t-one{
+        left: 100px !important;
+    }
+    .card-wrapper{
+        flex-direction: column;
     }
 }
 
@@ -116,5 +130,12 @@
     .contact-img {
         width: 350px;
         height: 231px;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 19px;
+    }
+    .ft-main {
+        width: 376px !important;
     }
 }
